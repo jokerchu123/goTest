@@ -6,9 +6,6 @@ import (
 	"testing"
 )
 
-type Sleeper interface {
-	Sleep()
-}
 type CountdownOperationsSpy struct {
 	Calls []string
 }
